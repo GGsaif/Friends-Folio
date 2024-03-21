@@ -1740,8 +1740,9 @@ section#banner_sec {
     height: auto;
   }
   
-a{
-    color: blue;
+.a{
+    color: black;
+    font-size: small;
 }
 .txt1{
     color: black;

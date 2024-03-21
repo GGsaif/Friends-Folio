@@ -198,6 +198,7 @@ section {
 
 body {
     line-height: 1;
+    display: grid;
     background-color: ;
     font-style: normal;
     scroll-behavior: smooth;
@@ -206,7 +207,7 @@ body {
 
 ol,
 ul {
-    list-style: none;
+    list-style: linear-gradient();
 }
 
 blockquote,
@@ -715,13 +716,9 @@ ul.branding-list {
     animation-delay: 0.2s;
 }
 
-.dot-animation div:nth-child(3) {
-    left: 98px;
-    top: 38px;
-    animation-delay: 0.4s;
-}
 
-.dot-animation div:nth-child(4) {
+
+.dt-animation div:nth-child(4) {
     left: 80px;
     top: 82px;
     animation-delay: 0.6s;
@@ -1740,10 +1737,7 @@ section#banner_sec {
     height: auto;
   }
   
-.a{
-    color: black;
-    font-size: small;
-}
+
 .txt1{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -1752,6 +1746,11 @@ section#banner_sec {
 .txt{
     color: white;
     transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-size: medium;
+}
+.a{
+    color: black;
+    font-size: small;
 }
 
 header {
